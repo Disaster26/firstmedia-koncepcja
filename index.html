@@ -1,0 +1,484 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Agencja reklamowa Bydgoszcz - reklama na rowerach miejskich, autobusach i autostradach | Firstmedia</title>
+<meta name="description" content="Firstmedia, agencja reklamowa z Bydgoszczy: kampanie outdoor i indoor na rowerach i autobusach miejskich, przy autostradach A1, A2, A4 i na ekranach. Wybór lokalizacji, kreacja, plan emisji i raport. Tel. 732 999 623.">
+<meta name="theme-color" content="#6E256F">
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+<link rel="preload" as="image" href="img/hero-m-640.webp" imagesrcset="img/hero-m-480.webp 480w, img/hero-m-640.webp 640w, img/hero-m-840.webp 840w" imagesizes="100vw" media="(max-width:760px)" fetchpriority="high">
+<link rel="preload" as="image" href="img/hero-d-1440.webp" imagesrcset="img/hero-d-960.webp 960w, img/hero-d-1440.webp 1440w, img/hero-d-1920.webp 1920w, img/hero-d-2560.webp 2560w" imagesizes="100vw" media="(min-width:761px)" fetchpriority="high">
+<link rel="preload" as="font" type="font/woff2" href="fonts/archivo-rdzen.woff2" crossorigin>
+<style>
+@font-face{font-family:Archivo;font-weight:400 800;font-display:swap;src:url(fonts/archivo-rdzen.woff2) format("woff2");unicode-range:U+0020-007E,U+00A0-00FF,U+2013-2026,U+20AC}
+@font-face{font-family:Archivo;font-weight:400 800;font-display:swap;src:url(fonts/archivo-pl.woff2) format("woff2");unicode-range:U+0104-0107,U+0118-0119,U+0141-0144,U+015A-015B,U+0179-017C}
+@font-face{font-family:"Archivo fb";src:local("Arial");size-adjust:102%;ascent-override:92%;descent-override:24%}
+/* kolory dokladnie z logo: fiolet #6E256F i czern #030303 */
+:root{--vi:#6E256F;--vi-d:#561B57;--vi-l:#E7CFE8;--bk:#030303;--ink:#141215;--mut:#55525A;--g:#F3F3F6;--line:#DEDDE3;--ft:#100D11;--hh:76px;--c:34px;--w:min(calc(100vw - 32px),1760px);--F:Archivo,"Archivo fb",Arial,sans-serif}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:var(--hh);-webkit-text-size-adjust:100%}
+body{margin:0;font-family:var(--F);font-size:clamp(16px,.22vw + 15px,19px);line-height:1.6;color:var(--ink);background:#fff;overflow-x:hidden}
+img{display:block;max-width:100%;height:auto}
+a{color:inherit}
+h1,h2,h3{margin:0;font-weight:700;line-height:1.06;letter-spacing:-.02em;color:var(--bk)}
+p{margin:0}
+.wrap{width:var(--w);margin:0 auto}
+.skip{position:absolute;left:-999px}.skip:focus{left:16px;top:8px;z-index:99;background:#fff;padding:8px 12px}
+/* motyw: dwie skosne belki z logo (jak "//") i narozniki sciete pod tym samym katem */
+.cut{clip-path:polygon(0 0,100% 0,100% calc(100% - var(--c)),calc(100% - var(--c)) 100%,0 100%)}
+.btn{display:inline-flex;align-items:center;gap:16px;min-height:56px;padding:0 26px;background:var(--vi);color:#fff;font:700 1.08rem/1 var(--F);letter-spacing:-.005em;text-decoration:none;border:0;border-radius:0;cursor:pointer;transition:background .2s;clip-path:polygon(0 0,100% 0,100% calc(100% - 14px),calc(100% - 14px) 100%,0 100%)}
+.btn:hover{background:var(--vi-d)}
+.btn:focus-visible{outline:3px solid var(--bk);outline-offset:3px}
+.btn i{position:relative;display:block;width:14px;height:20px;flex:none}
+.btn i::before,.btn i::after{content:"";position:absolute;left:5px;width:4px;height:13px;border-radius:2px;background:currentColor;transform:rotate(45deg);transition:transform .25s}
+.btn i::before{top:0;opacity:.55}.btn i::after{top:7px}
+.btn:hover i::before{transform:translate(2px,-1px) rotate(45deg)}
+.btn.w{background:#fff;color:var(--vi)}.btn.w:hover{background:var(--vi-l)}
+.btn.w:focus-visible{outline-color:#fff}
+.belka{display:block;width:44px;height:30px;position:relative;flex:none}
+.belka::before,.belka::after{content:"";position:absolute;left:14px;width:9px;height:30px;border-radius:5px;transform:rotate(45deg)}
+.belka::before{top:-8px;background:var(--vi)}.belka::after{top:6px;background:var(--bk)}
+/* naglowek */
+.top{position:sticky;top:0;z-index:50;background:#fff;transition:box-shadow .2s}
+.top.sc{box-shadow:0 1px 0 var(--line),0 6px 20px rgba(20,18,21,.07)}
+.top .wrap{display:flex;align-items:center;gap:24px;height:var(--hh)}
+.logo{display:block;flex:none}
+.logo img{height:50px;width:auto}
+.menu{display:flex;align-items:center;gap:clamp(16px,1.7vw,36px);margin-left:auto;font:600 1.04rem/1 var(--F)}
+.menu a{text-decoration:none;color:var(--ink);padding:10px 0;position:relative}
+.menu a:hover,.menu a.on{color:var(--vi)}
+.menu a.on::after{content:"";position:absolute;left:0;right:0;bottom:2px;height:3px;background:var(--vi)}
+.tel{font:700 1.12rem/1 var(--F);color:var(--bk);text-decoration:none;white-space:nowrap}
+.tel small{display:block;font:500 .74rem/1.2 var(--F);color:var(--mut);margin-bottom:3px}
+.top .btn{min-height:48px;font-size:1rem;padding:0 22px}
+.burger{display:none;width:48px;height:48px;border:0;background:none;padding:12px;cursor:pointer}
+.burger span{display:block;height:2px;background:var(--bk);margin:6px 0;transition:transform .2s,opacity .2s}
+/* hero: ich kampania WWF na ekranach w Rotundzie, tekst po prawej nad korytarzem */
+.hero{position:relative;overflow:hidden;background:#2a2730;color:#fff;display:flex;flex-direction:column;min-height:calc(100svh - var(--hh));clip-path:polygon(0 0,100% 0,100% calc(100% - 72px),calc(100% - 72px) 100%,0 100%)}
+.hero .ph{position:absolute;inset:0}
+.hero .ph img{width:100%;height:100%;object-fit:cover}
+.hero::before{content:"";position:absolute;inset:0;z-index:1;pointer-events:none}
+.hero .txt{position:relative;z-index:2;width:var(--w);margin:0 auto}
+.hero h1{color:#fff;font-size:clamp(2.1rem,1rem + 2.5vw,4.1rem);line-height:1.02;letter-spacing:-.025em;text-wrap:balance}
+.hero .lead{margin-top:22px;font-size:clamp(1rem,.9rem + .35vw,1.28rem);line-height:1.5;color:#EEEAF0;max-width:48ch}
+.hero .btn{margin-top:34px}
+.hero .zauf{position:relative;z-index:2;font-size:.95rem;line-height:1.5;color:#E4DFE6}
+.hero .zauf b{color:#fff;font-weight:600}
+@media (min-width:761px){
+  :root{--w:min(calc(100vw - 64px),1880px)}
+  .hero{justify-content:center;min-height:clamp(600px,calc(100svh - var(--hh)),1250px)}
+  .hero .ph img{object-position:30% 50%}
+  .hero::before{background:linear-gradient(270deg,rgba(16,10,18,.88) 0%,rgba(16,10,18,.7) 34%,rgba(16,10,18,.18) 58%,rgba(16,10,18,0) 70%),linear-gradient(0deg,rgba(16,10,18,.55) 0%,rgba(16,10,18,0) 26%)}
+  .hero .txt{padding:32px 0 120px;display:flex;flex-direction:column;align-items:flex-start;padding-left:max(50%,calc(100% - 900px))}
+  .hero .zauf{position:absolute;left:0;right:0;bottom:clamp(36px,3.2vw,64px);width:var(--w);margin:0 auto;padding-left:max(50%,calc(100% - 900px));padding-right:90px}
+}
+@media (max-width:760px){
+  .hero{justify-content:flex-end;clip-path:polygon(0 0,100% 0,100% calc(100% - 40px),calc(100% - 40px) 100%,0 100%)}
+  .hero .ph img{object-position:50% 40%}
+  .hero::before{background:linear-gradient(180deg,rgba(16,10,18,0) 18%,rgba(16,10,18,.55) 46%,rgba(16,10,18,.9) 76%,rgba(16,10,18,.94) 100%)}
+  .hero .txt{padding:110px 0 clamp(40px,7svh,64px)}
+  .hero h1{font-size:clamp(1.9rem,8.6vw,2.6rem)}
+  .hero .lead{margin-top:14px;font-size:clamp(.95rem,4vw,1.05rem);line-height:1.45}
+  .hero .btn{margin-top:24px;min-height:52px}
+  .hero .zauf{display:none}
+}
+/* sekcje */
+section{padding:clamp(64px,6.5vw,128px) 0}
+.g{background:var(--g)}
+.h2{font-size:clamp(2rem,1.2rem + 2.2vw,3.6rem);max-width:22ch}
+.intro{margin-top:18px;color:var(--mut);max-width:62ch;font-size:1.05em}
+.shead{display:flex;align-items:flex-end;justify-content:space-between;gap:24px;margin-bottom:clamp(30px,3vw,52px)}
+/* nosniki */
+.nos{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:clamp(18px,1.6vw,32px)}
+.nos article{display:flex;flex-direction:column}
+.nos .ph{aspect-ratio:4/3;overflow:hidden;background:var(--g)}
+.nos .ph img{width:100%;height:100%;object-fit:cover;transition:transform .6s}
+.nos article:hover .ph img{transform:scale(1.04)}
+.nos h3{margin-top:22px;font-size:clamp(1.45rem,1.1rem + .6vw,1.9rem)}
+.nos .gdzie{margin-top:8px;color:var(--vi);font-weight:600;font-size:.98em}
+.nos ul{list-style:none;margin:16px 0 0;padding:0;border-top:1px solid var(--line)}
+.nos li{padding:11px 0;border-bottom:1px solid var(--line);font-size:.97em;line-height:1.45}
+.nos-dol{margin-top:clamp(28px,3vw,48px);display:flex;align-items:center;justify-content:space-between;gap:24px 40px;flex-wrap:wrap;padding-top:clamp(24px,2.4vw,36px);border-top:2px solid var(--bk)}
+.nos-dol p{max-width:70ch;font-size:1.05em}
+/* outdoor + indoor: mocna sekcja w fiolecie z logo */
+.oi{background:var(--vi);color:#F4ECF4}
+.oi .h2{color:#fff}
+.oi .intro{color:#EBDDEC}
+.oi-siatka{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:clamp(24px,3vw,64px);margin-top:clamp(36px,3.6vw,60px)}
+.oi .ph{aspect-ratio:16/10;overflow:hidden}
+.oi .ph img{width:100%;height:100%;object-fit:cover}
+.oi h3{display:flex;align-items:center;gap:14px;margin-top:26px;color:#fff;font-size:clamp(1.6rem,1.2rem + .8vw,2.3rem)}
+.oi h3 .belka::before{background:#fff}.oi h3 .belka::after{background:var(--bk)}
+.oi .in h3 .belka::before{background:var(--bk)}.oi .in h3 .belka::after{background:#fff}
+.oi p.op{margin-top:12px;max-width:52ch;color:#F1E7F2}
+/* jak pracujemy */
+.kr{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:clamp(32px,5vw,110px);align-items:stretch}
+.kr .ph{position:relative;min-height:440px;overflow:hidden}
+.kr .ph img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.kroki{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 clamp(24px,3vw,56px);margin-top:clamp(28px,3vw,44px)}
+.kroki div{padding:24px 0 26px;border-top:2px solid var(--bk)}
+.kroki h3{font-size:1.38rem}
+.kroki p{margin-top:10px;color:var(--mut);font-size:.98em}
+/* realizacje: tor przewijany palcem i mysza */
+.tor{display:flex;gap:14px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;-webkit-overflow-scrolling:touch;cursor:grab;user-select:none}
+.tor::-webkit-scrollbar{display:none}
+.tor.drag{cursor:grabbing;scroll-snap-type:none}
+.gal button{all:unset;flex:none;scroll-snap-align:start;cursor:zoom-in;position:relative;overflow:hidden;height:clamp(280px,26vw,500px)}
+.gal button:focus-visible{outline:3px solid var(--vi);outline-offset:-3px}
+.gal img{height:100%;width:auto;max-width:none;object-fit:cover;pointer-events:none;transition:transform .5s}
+.gal button:hover img{transform:scale(1.03)}
+.gal span{position:absolute;left:0;bottom:0;max-width:calc(100% - 40px);background:#fff;color:var(--bk);padding:9px 14px;font-size:.88rem;font-weight:600;line-height:1.3}
+.nav{display:flex;gap:10px}
+.nav button{width:54px;height:54px;border:2px solid var(--bk);background:#fff;cursor:pointer;display:grid;place-items:center;color:var(--bk);transition:background .2s,color .2s}
+.nav button:hover{background:var(--vi);border-color:var(--vi);color:#fff}
+.nav svg{width:20px;height:20px}
+/* o nas + klienci */
+.onas{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(32px,5vw,120px);align-items:start}
+.onas .tekst p+p{margin-top:16px}
+.onas .tekst p{max-width:60ch}
+.onas .tekst .mocno{font-size:1.15em;font-weight:600;color:var(--bk);line-height:1.45}
+.kl h3{font-size:1.4rem}
+.kl ul{list-style:none;margin:18px 0 0;padding:0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border-top:2px solid var(--bk)}
+.kl li{padding:16px 12px 16px 0;border-bottom:1px solid var(--line);font-weight:700;font-size:clamp(1.02rem,.9rem + .3vw,1.22rem);line-height:1.25;color:var(--bk)}
+.kl p{margin-top:14px;color:var(--mut);font-size:.95em}
+/* kontakt */
+.kt{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:clamp(32px,4.5vw,100px);align-items:start}
+.kt-dane{margin-top:30px;display:grid;gap:18px}
+.kt-dane a,.kt-dane div{text-decoration:none}
+.kt-dane small{display:block;color:var(--mut);font-size:.82rem;margin-bottom:2px}
+.kt-dane strong{font-size:1.35rem;line-height:1.25;color:var(--bk)}
+.kt-dane a:hover strong{color:var(--vi)}
+.mapa{margin-top:30px;position:relative;aspect-ratio:16/10;background:var(--g);overflow:hidden}
+.mapa iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.mapa .zas{position:absolute;inset:0;display:grid;place-items:center;text-align:center;padding:20px;color:var(--mut);font-size:.95em}
+.mapa .zas button{margin-top:12px;font:700 1rem/1 var(--F);background:none;border:2px solid var(--bk);padding:12px 18px;cursor:pointer;color:var(--bk)}
+form{background:var(--g);padding:clamp(24px,3vw,48px)}
+form h3{font-size:1.7rem}
+form .sub{margin-top:8px;color:var(--mut);font-size:.95em}
+.pola{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin-top:24px}
+.pola .c2{grid-column:1/-1}
+label{display:block;font-size:.88rem;font-weight:600;margin-bottom:6px;color:var(--ink)}
+input,select,textarea{width:100%;font:inherit;font-size:16px;padding:13px 14px;border:1px solid #BDBBC3;background:#fff;border-radius:0;color:var(--ink)}
+input:focus,select:focus,textarea:focus{outline:2px solid var(--vi);outline-offset:0;border-color:var(--vi)}
+[aria-invalid=true]{border-color:#B3261E;outline-color:#B3261E}
+textarea{min-height:120px;resize:vertical}
+.zg{display:flex;gap:10px;align-items:flex-start;margin-top:16px;font-size:.85rem;color:var(--mut);font-weight:400}
+.zg input{width:20px;height:20px;flex:none;margin-top:2px}
+form .btn{margin-top:22px}
+#msg{margin-top:18px;padding:14px 16px;background:#fff;border-left:4px solid var(--vi);font-size:.95em}
+/* stopka */
+footer{background:var(--ft);color:#C2BEC6;padding:clamp(48px,4.5vw,80px) 0 28px;font-size:.95em}
+.st{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:28px}
+footer .fl{height:52px;width:auto}
+footer h4{margin:0 0 12px;font-size:1.05rem;line-height:1.2;color:#fff}
+footer a{text-decoration:none}footer a:hover{color:#fff}
+footer p{line-height:1.7}
+.st-dol{margin-top:40px;padding-top:20px;border-top:1px solid rgba(255,255,255,.12);display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap;font-size:.85rem}
+.wylinka-badge{display:inline-flex;align-items:center;gap:.4em;color:inherit;text-decoration:none;font-size:.875em;line-height:1;opacity:.85}
+.wylinka-badge:hover,.wylinka-badge:focus-visible{opacity:1}
+.wylinka-badge:focus-visible{outline:2px solid currentColor;outline-offset:3px;border-radius:2px}
+.wylinka-badge svg{width:18px;height:18px;flex:none;overflow:visible}
+.wylinka-badge b{font-weight:600}
+.wylinka-badge .wy-old{opacity:.45;transform-origin:40px 30px;transition:transform .32s cubic-bezier(.3,.7,.4,1),opacity .32s ease-out}
+.wylinka-badge .wy-pod{opacity:0;transition:opacity .2s ease-out .08s}
+.wylinka-badge:hover .wy-old,.wylinka-badge:focus-visible .wy-old{transform:translate(9px,7px) rotate(9deg);opacity:0}
+.wylinka-badge:hover .wy-pod,.wylinka-badge:focus-visible .wy-pod{opacity:1}
+@media (prefers-reduced-motion:reduce){.wylinka-badge .wy-old,.wylinka-badge .wy-pod{transition:none}.wylinka-badge:hover .wy-old,.wylinka-badge:focus-visible .wy-old{transform:none;opacity:.45}.wylinka-badge:hover .wy-pod,.wylinka-badge:focus-visible .wy-pod{opacity:0}}
+.mob{display:none}
+/* lightbox */
+.lb{position:fixed;inset:0;z-index:90;background:rgba(16,13,17,.95);display:none;align-items:center;justify-content:center}
+.lb.on{display:flex}
+.lb figure{margin:0;display:flex;flex-direction:column;align-items:center;justify-content:center;width:100%;height:100%;padding:60px 70px}
+.lb img{max-width:100%;max-height:calc(100% - 40px);object-fit:contain}
+.lb figcaption{color:#ddd;margin-top:12px;font-size:.9rem;text-align:center}
+.lb button{position:absolute;background:rgba(255,255,255,.1);border:0;color:#fff;width:52px;height:52px;cursor:pointer;display:grid;place-items:center}
+.lb button:hover{background:rgba(255,255,255,.22)}
+.lb svg{width:22px;height:22px}
+.lb .x{top:12px;right:12px}.lb .p{left:12px;top:50%;margin-top:-26px}.lb .n{right:12px;top:50%;margin-top:-26px}
+/* cookies */
+.cookies{position:fixed;left:16px;right:16px;bottom:16px;z-index:80;max-width:560px;background:#fff;border:1px solid var(--line);box-shadow:0 10px 30px rgba(0,0,0,.15);padding:14px 16px;display:flex;gap:12px;align-items:center;flex-wrap:wrap;font-size:.84rem;line-height:1.45}
+.cookies[hidden]{display:none}
+.cookies p{flex:1 1 260px}
+.cookies button{font:700 .95rem/1 var(--F);padding:11px 14px;border:2px solid var(--bk);background:#fff;cursor:pointer;color:var(--bk)}
+.cookies button.t{background:var(--vi);color:#fff;border-color:var(--vi)}
+@media (max-width:1400px){
+  .nos{grid-template-columns:repeat(2,minmax(0,1fr));gap:40px 28px}
+}
+@media (max-width:1180px){
+  .menu{gap:18px;font-size:1rem}
+  .top .tel{display:none}
+}
+@media (max-width:980px){
+  .kr,.kt,.onas{grid-template-columns:minmax(0,1fr)}
+  .kr .ph{min-height:0;aspect-ratio:3/2}
+  .st{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .st>div:first-child{grid-column:1/-1}
+}
+@media (max-width:900px){
+  .burger{display:block;margin-left:auto}
+  .top .wrap{gap:12px}
+  .top .wrap>.btn{display:none}
+  .menu{position:fixed;top:var(--hh);left:0;right:0;flex-direction:column;align-items:stretch;gap:0;background:#fff;padding:8px 16px 24px;border-top:1px solid var(--line);box-shadow:0 20px 30px rgba(0,0,0,.12);transform:translateY(-8px);opacity:0;visibility:hidden;transition:.2s;font-size:1.2rem}
+  .menu a{padding:15px 4px;border-bottom:1px solid var(--line)}
+  .menu a.on::after{display:none}
+  .menu .btn{margin-top:18px;justify-content:center;border:0;color:#fff;padding:0 24px}
+  .menu .btn:hover{color:#fff}
+  .top.open .menu{transform:none;opacity:1;visibility:visible}
+  .top.open .burger span:nth-child(1){transform:translateY(8px) rotate(45deg)}
+  .top.open .burger span:nth-child(2){opacity:0}
+  .top.open .burger span:nth-child(3){transform:translateY(-8px) rotate(-45deg)}
+  .mtel{display:grid;place-items:center;width:46px;height:46px;border:2px solid var(--bk);color:var(--bk);margin-left:auto}
+  .mtel svg{width:20px;height:20px}
+  .mtel+.burger{margin-left:0}
+}
+@media (min-width:901px){.mtel,.menu .mb{display:none}}
+@media (max-width:760px){
+  :root{--hh:64px;--c:26px}
+  .logo img{height:40px}
+  .shead{flex-direction:column;align-items:flex-start}
+  .shead .nav{display:none}
+  .nos{display:flex;gap:16px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;margin-right:-16px;padding-right:16px}
+  .nos::-webkit-scrollbar{display:none}
+  .nos article{flex:none;width:84%;scroll-snap-align:start}
+  .oi-siatka,.kroki{grid-template-columns:minmax(0,1fr)}
+  .oi-siatka{gap:44px}
+  .kl ul{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .gal button{height:300px}
+  .pola{grid-template-columns:minmax(0,1fr)}
+  .mob{display:grid;grid-template-columns:1fr 1.4fr;position:fixed;left:0;right:0;bottom:0;z-index:60;transform:translateY(100%);transition:transform .25s;box-shadow:0 -6px 20px rgba(0,0,0,.12)}
+  .mob.widac{transform:none}
+  .mob a{display:flex;align-items:center;justify-content:center;gap:8px;min-height:56px;font:700 1.05rem/1 var(--F);text-decoration:none;background:#fff;color:var(--bk)}
+  .mob a.r{background:var(--vi);color:#fff}
+  .mob svg{width:18px;height:18px}
+  footer{padding-bottom:84px}
+  .cookies{left:12px;right:12px;bottom:12px}
+  .lb figure{padding:60px 12px}
+  .lb .p,.lb .n{top:auto;bottom:14px;margin:0}
+  .lb .p{left:calc(50% - 60px)}.lb .n{right:calc(50% - 60px)}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<a class="skip" href="#nosniki">Przejdź do treści</a>
+<header class="top" id="top">
+  <div class="wrap">
+    <a class="logo" href="#start" aria-label="Firstmedia, agencja reklamowa - strona główna"><img src="img/logo.svg" width="89" height="50" alt="Firstmedia"></a>
+    <nav class="menu" id="menu" aria-label="Menu główne">
+      <a href="#nosniki">Nośniki</a>
+      <a href="#kampania">Jak pracujemy</a>
+      <a href="#realizacje">Realizacje</a>
+      <a href="#o-nas">O nas</a>
+      <a href="#kontakt">Kontakt</a>
+      <a class="btn mb" href="#kontakt">Zapytaj o kampanię <i></i></a>
+    </nav>
+    <a class="tel" href="tel:+48732999623"><small>Zadzwoń</small>732 999 623</a>
+    <a class="btn" href="#kontakt">Zapytaj o kampanię <i></i></a>
+    <a class="mtel" href="tel:+48732999623" aria-label="Zadzwoń: 732 999 623"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" aria-hidden="true"><path d="M5 3h4l1.5 5-2.5 1.5a11 11 0 0 0 6.5 6.5l1.5-2.5 5 1.5v4a2 2 0 0 1-2 2A17 17 0 0 1 3 5a2 2 0 0 1 2-2z"/></svg></a>
+    <button class="burger" id="burger" type="button" aria-label="Otwórz menu" aria-expanded="false" aria-controls="menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<main>
+<section class="hero" id="start" style="padding:0">
+  <div class="ph"><picture>
+    <source media="(max-width:760px)" srcset="img/hero-m-480.webp 480w, img/hero-m-640.webp 640w, img/hero-m-840.webp 840w" sizes="100vw" width="840" height="1449">
+    <img src="img/hero-d-1440.webp" srcset="img/hero-d-960.webp 960w, img/hero-d-1440.webp 1440w, img/hero-d-1920.webp 1920w, img/hero-d-2560.webp 2560w" sizes="100vw" width="2560" height="1449" fetchpriority="high" alt="Kampania WWF na ekranach w przejściu podziemnym Rotunda w Warszawie">
+  </picture></div>
+  <div class="txt">
+    <h1>Agencja reklamowa: kampanie na rowerach miejskich, autobusach i&nbsp;autostradach</h1>
+    <p class="lead">Dobieramy nośniki i lokalizacje pod Twoją grupę docelową, przygotowujemy przekaz, planujemy emisję, a po kampanii pokazujemy wyniki. Tak, żeby reklama była efektywna i efektowna.</p>
+    <a class="btn" href="#kontakt">Zapytaj o kampanię <i></i></a>
+  </div>
+  <p class="zauf"><b>Zaufali nam m.in.:</b> Itaka, RocketJobs, Walutomat, Costa Coffee, Aldi, Provident, WWF, Muzeum Powstania Warszawskiego</p>
+</section>
+
+<section id="nosniki">
+  <div class="wrap">
+    <div class="shead">
+      <div>
+        <h2 class="h2">Nośniki, na których prowadzimy kampanie</h2>
+        <p class="intro">Każdą kampanię ustawiamy pod klienta: w wybranych miastach i miejscach, w skali, jakiej potrzebujesz.</p>
+      </div>
+    </div>
+    <div class="nos" data-tor id="tor-nos">
+      <article>
+        <div class="ph cut"><img src="img/k-rowery-450.webp" srcset="img/k-rowery-450.webp 450w, img/k-rowery-600.webp 600w, img/k-rowery-900.webp 900w, img/k-rowery-1200.webp 1200w" sizes="(max-width:760px) 84vw, (max-width:1400px) 50vw, 25vw" width="1200" height="900" loading="lazy" alt="Rowery miejskie z reklamą RocketJobs w stacji"></div>
+        <h3>Rowery miejskie</h3>
+        <p class="gdzie">Warszawa, Wrocław, Łódź, Katowice</p>
+        <ul><li>Ponad 10 000 rowerów w ofercie</li><li>Dotarcie do 1,8 mln osób miesięcznie na 100 rowerów</li><li>Stacje i miejsca ekspozycji wybrane pod kampanię</li></ul>
+      </article>
+      <article>
+        <div class="ph cut"><img src="img/k-autobusy-450.webp" srcset="img/k-autobusy-450.webp 450w, img/k-autobusy-600.webp 600w, img/k-autobusy-900.webp 900w, img/k-autobusy-1200.webp 1200w" sizes="(max-width:760px) 84vw, (max-width:1400px) 50vw, 25vw" width="1200" height="900" loading="lazy" alt="Reklama full back na tyle autobusu miejskiego w Warszawie"></div>
+        <h3>Autobusy miejskie</h3>
+        <p class="gdzie">Warszawa, Wrocław, Łódź, Katowice, Kraków, Poznań, Trójmiasto, Bydgoszcz</p>
+        <ul><li>Kampania już od 1 autobusu</li><li>Ekspozycja full back albo back</li><li>W cenie druk, montaż, ekspozycja i demontaż</li></ul>
+      </article>
+      <article>
+        <div class="ph cut"><img src="img/k-autostrady-450.webp" srcset="img/k-autostrady-450.webp 450w, img/k-autostrady-600.webp 600w, img/k-autostrady-900.webp 900w, img/k-autostrady-1200.webp 1200w" sizes="(max-width:760px) 84vw, (max-width:1400px) 50vw, 25vw" width="1200" height="900" loading="lazy" alt="Kampania Santander Bank Polska na nośniku przy autostradzie"></div>
+        <h3>Autostrady</h3>
+        <p class="gdzie">A1, A2, A4</p>
+        <ul><li>Ponad 30 nośników przy autostradach</li><li>Średnio blisko 1,7 mln osób w zasięgu miesięcznie</li><li>W cenie druk, montaż, ekspozycja, demontaż i ubezpieczenie</li></ul>
+      </article>
+      <article>
+        <div class="ph cut"><img src="img/k-ekrany-450.webp" srcset="img/k-ekrany-450.webp 450w, img/k-ekrany-600.webp 600w, img/k-ekrany-900.webp 900w, img/k-ekrany-1200.webp 1200w" sizes="(max-width:760px) 84vw, (max-width:1400px) 50vw, 25vw" width="1200" height="900" loading="lazy" alt="Ekrany reklamowe przy kasach biletowych PKP Intercity"></div>
+        <h3>Pociągi, przystanki i ekrany</h3>
+        <p class="gdzie">Dworce, przejścia, przystanki autobusowe</p>
+        <ul><li>Reklama w pociągach i na przystankach</li><li>Ekrany przy kasach, w przejściach i w lokalach</li><li>Emisja zaplanowana tak, żeby wykorzystać ruch</li></ul>
+      </article>
+    </div>
+    <div class="nos-dol">
+      <p>Kampanie realizujemy niemal na wszystkich dostępnych dziś nośnikach. Napisz, kogo chcesz dotrzeć i gdzie, a dobierzemy nośniki i lokalizacje.</p>
+      <a class="btn" href="#kontakt">Zapytaj o kampanię <i></i></a>
+    </div>
+  </div>
+</section>
+
+<section class="oi" id="outdoor-indoor">
+  <div class="wrap">
+    <h2 class="h2">Outdoor i indoor, które się uzupełniają</h2>
+    <p class="intro">Kampanie na zewnątrz i wewnątrz mogą wzajemnie się wspierać i razem tworzyć spójny, skuteczny przekaz dla Twojej grupy docelowej.</p>
+    <div class="oi-siatka">
+      <div class="out">
+        <div class="ph cut"><img src="img/out-520.webp" srcset="img/out-520.webp 520w, img/out-700.webp 700w, img/out-1100.webp 1100w" sizes="(max-width:760px) 100vw, 50vw" width="1100" height="733" loading="lazy" alt="Nośnik reklamowy przy ruchliwej ulicy w Poznaniu"></div>
+        <h3><span class="belka" aria-hidden="true"></span>Outdoor</h3>
+        <p class="op">Rowery i autobusy miejskie, nośniki przy autostradach i drogach, przystanki. Reklama, którą widać na ulicach miasta i w trasie.</p>
+      </div>
+      <div class="in">
+        <div class="ph cut"><img src="img/in-520.webp" srcset="img/in-520.webp 520w, img/in-700.webp 700w, img/in-1100.webp 1100w" sizes="(max-width:760px) 100vw, 50vw" width="1100" height="825" loading="lazy" alt="Ekran z reklamą w restauracji Pasibus w Katowicach"></div>
+        <h3><span class="belka" aria-hidden="true"></span>Indoor</h3>
+        <p class="op">Ekrany w przejściach podziemnych, na dworcach i w lokalach. Przekaz tam, gdzie ludzie czekają i mają chwilę, żeby go zobaczyć.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="g" id="kampania">
+  <div class="wrap kr">
+    <div class="ph cut"><img src="img/kroki-520.webp" srcset="img/kroki-520.webp 520w, img/kroki-700.webp 700w, img/kroki-1100.webp 1100w" sizes="(max-width:980px) 100vw, 45vw" width="1100" height="825" loading="lazy" alt="Przechodzień mija ekrany z kampanią w przejściu"></div>
+    <div>
+      <h2 class="h2">Jak prowadzimy kampanię</h2>
+      <p class="intro">Zanim reklama trafi na nośniki, przechodzimy z Tobą cztery kroki.</p>
+      <div class="kroki">
+        <div><h3>Wybór lokalizacji</h3><p>Ustalamy, gdzie kampania ma działać: na zewnątrz czy wewnątrz. Miejsca dobieramy do Twojej grupy docelowej, żeby marka albo produkt były widoczne tam, gdzie trzeba.</p></div>
+        <div><h3>Kreacja przekazu</h3><p>Przygotowujemy grafikę albo spot, który przyciąga uwagę i jasno mówi, co chcesz przekazać. Zwięźle, czytelnie i atrakcyjnie.</p></div>
+        <div><h3>Planowanie kampanii</h3><p>Układamy harmonogram: gdzie i kiedy pojawiają się reklamy, a przy ekranach plan emisji, żeby w pełni wykorzystać widoczność.</p></div>
+        <div><h3>Raport i analiza</h3><p>Po kampanii dostajesz raport z wynikami i wnioskami, które wykorzystamy przy kolejnych kampaniach.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="realizacje">
+  <div class="wrap">
+    <div class="shead">
+      <div>
+        <h2 class="h2">Nasze realizacje</h2>
+        <p class="intro">Kampanie na rowerach, ekranach i nośnikach przy drogach. Przesuń palcem albo myszą, kliknij, żeby powiększyć.</p>
+      </div>
+      <div class="nav" data-nav="tor-gal">
+        <button type="button" data-k="-1" aria-label="Poprzednie zdjęcia"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg></button>
+        <button type="button" data-k="1" aria-label="Następne zdjęcia"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></button>
+      </div>
+    </div>
+    <div class="tor gal" id="tor-gal" data-tor>
+      <button type="button" data-lb="gal" data-src="img/g-rocketjobs-xl.webp" data-cap="Rowery miejskie: kampania RocketJobs"><img src="img/g-rocketjobs.webp" width="420" height="560" loading="lazy" alt="Rowery miejskie: kampania RocketJobs"><span>Rowery miejskie: kampania RocketJobs</span></button>
+      <button type="button" data-lb="gal" data-src="img/g-santander-xl.webp" data-cap="Nośnik przy autostradzie: kampania Santander Bank Polska"><img src="img/g-santander.webp" width="1396" height="560" loading="lazy" alt="Nośnik przy autostradzie: kampania Santander Bank Polska"><span>Nośnik przy autostradzie: kampania Santander Bank Polska</span></button>
+      <button type="button" data-lb="gal" data-src="img/g-bydgoszcz-xl.webp" data-cap="Rowery miejskie w Bydgoszczy"><img src="img/g-bydgoszcz.webp" width="914" height="560" loading="lazy" alt="Rowery miejskie w Bydgoszczy"><span>Rowery miejskie w Bydgoszczy</span></button>
+      <button type="button" data-lb="gal" data-src="img/g-pasibus-xl.webp" data-cap="Ekran w lokalu Pasibus, Katowice"><img src="img/g-pasibus.webp" width="747" height="560" loading="lazy" alt="Ekran w lokalu Pasibus, Katowice"><span>Ekran w lokalu Pasibus, Katowice</span></button>
+      <button type="button" data-lb="gal" data-src="img/g-pkp-xl.webp" data-cap="Ekrany przy kasach PKP Intercity"><img src="img/g-pkp.webp" width="839" height="560" loading="lazy" alt="Ekrany przy kasach PKP Intercity"><span>Ekrany przy kasach PKP Intercity</span></button>
+      <button type="button" data-lb="gal" data-src="img/g-masa-xl.webp" data-cap="Rowery miejskie: Masa Powstańcza"><img src="img/g-masa.webp" width="600" height="400" loading="lazy" alt="Rowery miejskie: Masa Powstańcza"><span>Rowery miejskie: Masa Powstańcza</span></button>
+      <button type="button" data-lb="gal" data-src="img/g-poznan-xl.webp" data-cap="Nośnik przy ulicy w Poznaniu"><img src="img/g-poznan.webp" width="840" height="560" loading="lazy" alt="Nośnik przy ulicy w Poznaniu"><span>Nośnik przy ulicy w Poznaniu</span></button>
+      <button type="button" data-lb="gal" data-src="img/g-ekrany-xl.webp" data-cap="Ekrany w przejściu podziemnym"><img src="img/g-ekrany.webp" width="747" height="560" loading="lazy" alt="Ekrany w przejściu podziemnym"><span>Ekrany w przejściu podziemnym</span></button>
+      <button type="button" data-lb="gal" data-src="img/g-krakow-xl.webp" data-cap="Ekrany na dworcu: kampania Costa Coffee"><img src="img/g-krakow.webp" width="577" height="321" loading="lazy" alt="Ekrany na dworcu: kampania Costa Coffee"><span>Ekrany na dworcu: kampania Costa Coffee</span></button>
+      <button type="button" data-lb="gal" data-src="img/g-dabie-xl.webp" data-cap="Nośnik przy drodze ekspresowej"><img src="img/g-dabie.webp" width="704" height="469" loading="lazy" alt="Nośnik przy drodze ekspresowej"><span>Nośnik przy drodze ekspresowej</span></button>
+    </div>
+  </div>
+</section>
+
+<section class="g" id="o-nas">
+  <div class="wrap onas">
+    <div class="tekst">
+      <h2 class="h2">Reklama to nasza pasja</h2>
+      <p class="intro mocno">Firstmedia zrealizuje dla Ciebie kampanię kompleksowo: od wyboru nośników i lokalizacji, przez kreację, po montaż i raport.</p>
+      <p style="margin-top:22px">Realizując kampanię, pracujemy blisko z klientem. Chcemy zrozumieć jego potrzeby, cele i wartości, bo wtedy kampania jest skuteczniejsza i lepiej dopasowana. Dlatego zamiast jednorazowych zleceń budujemy partnerskie relacje.</p>
+      <p>Nasz zespół łączy wiedzę branżową z nowymi pomysłami, żeby Twoja marka wyróżniła się na ulicy, w trasie i na ekranach.</p>
+    </div>
+    <div class="kl">
+      <h3>Zaufali nam</h3>
+      <ul>
+        <li>Itaka</li><li>RocketJobs</li><li>Walutomat</li><li>Rodowita</li><li>Alivia</li><li>SOS Wioski Dziecięce</li><li>Ekovital</li><li>Costa Coffee</li><li>Aldi</li><li>Provident</li><li>Kodano</li><li>WWF</li><li>Inszury</li><li>Muzeum Powstania Warszawskiego</li><li>Muzeum Narodowe</li>
+      </ul>
+      <p>i wiele innych firm i instytucji.</p>
+    </div>
+  </div>
+</section>
+
+<section id="kontakt">
+  <div class="wrap kt">
+    <div>
+      <h2 class="h2">Zapytaj o kampanię</h2>
+      <p class="intro">Napisz, co chcesz promować, w jakich miastach i w jakim terminie. Odpiszemy z propozycją nośników i kosztów.</p>
+      <div class="kt-dane">
+        <a href="tel:+48732999623"><small>Telefon</small><strong>+48 732 999 623</strong></a>
+        <a href="mailto:reklama@firstmedia.com.pl"><small>E-mail</small><strong>reklama@firstmedia.com.pl</strong></a>
+        <div><small>Adres</small><strong>ul. Konopnickiej 33/8, 85-124 Bydgoszcz</strong></div>
+      </div>
+      <div class="mapa" id="mapa" data-src="https://www.google.com/maps?q=Konopnickiej+33,+85-124+Bydgoszcz&amp;output=embed">
+        <div class="zas"><div>Mapa Google: ul. Konopnickiej 33/8, Bydgoszcz<br><button type="button" id="pokaz-mape">Pokaż mapę</button></div></div>
+      </div>
+    </div>
+    <form id="form" novalidate>
+      <h3>Zapytanie o kampanię</h3>
+      <p class="sub">Wystarczy kilka zdań, resztę ustalimy w odpowiedzi.</p>
+      <div class="pola">
+        <div><label for="f-im">Imię i nazwisko</label><input id="f-im" type="text" autocomplete="name" required></div>
+        <div><label for="f-fi">Firma</label><input id="f-fi" type="text" autocomplete="organization"></div>
+        <div><label for="f-em">E-mail</label><input id="f-em" type="email" autocomplete="email" required></div>
+        <div><label for="f-tel">Telefon</label><input id="f-tel" type="tel" autocomplete="tel"></div>
+        <div><label for="f-no">Nośnik</label><select id="f-no"><option>Jeszcze nie wiem, doradźcie</option><option>Rowery miejskie</option><option>Autobusy miejskie</option><option>Autostrady</option><option>Pociągi i przystanki</option><option>Ekrany (indoor)</option></select></div>
+        <div><label for="f-mi">Miasta lub region</label><input id="f-mi" type="text" placeholder="Np. Warszawa i Łódź"></div>
+        <div class="c2"><label for="f-wi">Wiadomość</label><textarea id="f-wi" placeholder="Co promujesz, od kiedy i na jak długo" required></textarea></div>
+      </div>
+      <label class="zg"><input type="checkbox" required> Wyrażam zgodę na kontakt w sprawie zapytania.</label>
+      <button class="btn" type="submit">Wyślij zapytanie <i></i></button>
+      <p id="msg" hidden>To podgląd strony, formularz niczego nie wysyła. Na docelowej stronie zapytanie trafi na reklama@firstmedia.com.pl.</p>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="st">
+      <div><img class="fl" src="img/logo-biale.svg" width="92" height="52" alt="Firstmedia" loading="lazy"><p style="margin-top:16px">Agencja reklamowa. Kampanie outdoor i indoor na rowerach i autobusach miejskich, przy autostradach i na ekranach.</p></div>
+      <div><h4>Kontakt</h4><p><a href="tel:+48732999623">+48 732 999 623</a><br><a href="mailto:reklama@firstmedia.com.pl">reklama@firstmedia.com.pl</a></p></div>
+      <div><h4>Adres</h4><p>Firstmedia Rafał Glasner<br>ul. Konopnickiej 33/8<br>85-124 Bydgoszcz</p></div>
+      <div><h4>Na skróty</h4><p><a href="#nosniki">Nośniki</a><br><a href="#realizacje">Realizacje</a><br><a href="#kontakt">Kontakt</a><br><a href="#start">Polityka prywatności</a></p></div>
+    </div>
+    <div class="st-dol"><span>© <span id="rok">2026</span> Firstmedia, agencja reklamowa</span><a class="wylinka-badge" href="https://wylinka.pl/?utm_source=firstmedia.com.pl&amp;utm_medium=stopka&amp;utm_campaign=wykonanie" rel="noopener" title="Strona wykonana przez Wylinka"><svg viewBox="0 0 64 64" aria-hidden="true" focusable="false" fill="currentColor"><path d="M9.8 22.8l-1.2-7.9 2.2-3.7 15.5 4.6-.5 1.5-7.2 5.5 4.7 15.6 5-15.6 7 0 4.1 12.7-4.2-.9-2.6 1.8-.8-2.2-5.3 15.6-4.3 0 .4 .2-2.1 2.8-1.3-1.1 1.1-1.4-3.1 .2-.1-1.7 2.2-.1-5.7-16.5-4.8 .6-.8 3.1 0 .5-.3 .5 .8 2.2-1.6 .5-.4-1.3-.8 1.6-1.5-.8 .8-1.6-1.4 .6-.6-1.6 2.3-.8 .2-.4 1.3-4.8 5.9-.8-2.4-6.9zM15.2 13.7l-.1-.4-.4 .8-.1 .8 .1 1 .1 .4 .3 .7 .3-.9 .1-.7 0-.8z"/><path class="wy-pod" d="M37.1 49.8l-4.5-13.3 2.6-1.8 4.2 .9 .9 2.8 3-9.7 0-.5 .1-.8 3.2-8.4 .5-1 .6-1 .9-1.1 1.3-1 1.1-.7 1.4-.5 1.4-.3 .7 0 .9 0 1.2 .3 1.4 .6 .8 .5 .7 .7 .6 .7 .5 .9 .3 .9 .1 .9 0 .8-.2 .9-.5 .9-.5 .6-.7 .5-.7 .3-.1-.1 0-.1 .5-.5 .3-.7 .2-.5 0-.6-.1-.6-.3-.7-.4-.5-.4-.4-.5-.3-.6-.3-.7 0-.7 .1-.6 .1-.5 .4-.5 .5-.3 .5-.2 .7-.1 1.5-1.4 5.1-.8 3.3-.3 .7-.5 .7-6 17.5 1.9 .1-.1 1.7-3.1-.2 1.1 1.4-1.3 1.1-2.1-2.8 .4-.2z"/><path class="wy-old" d="M40.8 50l.4-.2-4.1 0-4.2-12.5 2.5-1.7 4.3 .9 .6 1.9 .6-1.6 0-.3 2.4-7.8 0-.5 .1-.8 3.2-8.4 .4-.8 .6-.9 .9-1.2 .9-.9 1.3-.8 1.4-.6 1.2-.3 1.4-.1 1.3 .1 .6 .2 .8 .3 1.1 .6 .9 .7 .7 .9 .5 .9 .3 .9 .1 1.1-.1 .9-.3 .9-.4 .7-.6 .7-.6 .4-.6 .2-.1-.1 0-.1 .5-.5 .3-.7 .2-.5 0-.5-.1-.6-.2-.6-.3-.5-.4-.5-.5-.3-.6-.3-.7-.1-.6 0-.6 .1-.6 .3-.6 .5-.3 .4-.2 .5-.1 .5-.1 1.5-1.4 5.1-.8 3.3-.3 .7-.5 .7-6 17.5 1.9 .1-.1 1.7-3.1-.2 1.1 1.4-1.3 1.1zM49.6 17.1l.6 1.7-1.5 1.9 .4 .4 1.8-2.1-.7-2.1zM48.1 28.3l.5 1.8-1.7 1.8 .4 .4 1.9-2-.6-2.2zM37.9 41.7l1.7-1.5-.4-.4-1.7 1.4zM42.6 38.7l-1.5 2.8 1.1 2-1.3 2.6 .5 .2 1.5-2.8-1.1-2 1.4-2.5z"/></svg><span>wykonanie: <b>Wylinka</b></span></a></div>
+  </div>
+</footer>
+
+<nav class="mob" id="mob" aria-label="Szybki kontakt">
+  <a href="tel:+48732999623"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" aria-hidden="true"><path d="M5 3h4l1.5 5-2.5 1.5a11 11 0 0 0 6.5 6.5l1.5-2.5 5 1.5v4a2 2 0 0 1-2 2A17 17 0 0 1 3 5a2 2 0 0 1 2-2z"/></svg>Zadzwoń</a>
+  <a class="r" href="#kontakt">Zapytaj o kampanię</a>
+</nav>
+
+<div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="Powiększone zdjęcie">
+  <figure><img alt=""><figcaption></figcaption></figure>
+  <button class="x" type="button" aria-label="Zamknij"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 5l14 14M19 5L5 19"/></svg></button>
+  <button class="p" type="button" aria-label="Poprzednie"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg></button>
+  <button class="n" type="button" aria-label="Następne"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></button>
+</div>
+
+<div class="cookies" id="cookies" hidden>
+  <p>Strona używa plików cookies tylko do wyświetlenia mapy Google. Szczegóły w polityce prywatności.</p>
+  <button type="button" data-c="0">Tylko niezbędne</button><button type="button" class="t" data-c="1">Akceptuję</button>
+</div>
+<script>(function(){var z=null;try{z=localStorage.getItem('fm-cookies')}catch(e){}if(z===null)document.getElementById('cookies').hidden=false})();</script>
+<script src="app.js" defer></script>
+</body>
+</html>
